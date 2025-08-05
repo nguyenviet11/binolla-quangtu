@@ -18,7 +18,7 @@ export default function Home() {
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-        Binolla Official Site{""}
+        Binolla Official Site{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
