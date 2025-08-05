@@ -1,24 +1,24 @@
 'use client'
 import styles from "./page.module.css";
-import circel from "../../public/R-tron.png";
-import image from "../../public/image.png";
+import circel from "../../../public/R-tron.png";
+import image from "../../../public/image.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
 
   const handleClick = () => {
-      window.location.href = "/casesgg-connecting"; 
+      window.location.href = "/binolla-connecting"; 
   }
 
   return (
     <div
-      // onClick={handleClick}
+      onClick={handleClick}
       // onMouseMove={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-        Binolla Official Site{""}
+        Binolla Official Site{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
