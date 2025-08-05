@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import circel from "../../../public/R-tron.png";
 import image from "../../../public/image.png";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Home() {
 
@@ -26,7 +25,7 @@ export default function Home() {
           </span>
         </h3>
         <p className={styles.text2}>
-          Checking if the site connection is secure tessttt
+          Checking if the site connection is secure
         </p>
         <p className={styles.text3}>
           We needs to review the security of your connection before proceeding
